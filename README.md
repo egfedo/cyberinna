@@ -18,3 +18,5 @@ CyberInna is a telegram bot which allow you to set up tests and pass them.
 2. Configure the config.yml file with the correct settings
 You can check the repo for sample data.
 
+
+[Bot Example](https://raw.githubusercontent.com/egfedo/cyberinna/main/IMG_5723.PNG)
