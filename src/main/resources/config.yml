@@ -1,0 +1,4 @@
+token: guh
+tests:
+  - id: ugolov
+    displayNames: ["Уголовное право", "Уголовному праву"]

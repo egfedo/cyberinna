@@ -1,0 +1,22 @@
+token: "6508455841:AAEmdwqv4mzeBLqRpFjXuqbH0ty9FYCaqaE"
+userDataPath: ./user
+tests:
+  - id: civil
+    displayNames: ["Гражданское право", "Гражданскому праву"]
+    dbType: Single
+    dbPrefix: Г-
+    dbFile: ./civil
+    nestedDBs: []
+  - id: const
+    displayNames: [ "Конституционное право", "Конституционному праву" ]
+    dbType: Single
+    dbPrefix: К-
+    dbFile: ./const
+    nestedDBs: []
+  - id: kt1
+    displayNames: ["1-я контрольная точка", "1-й контрольной точке"]
+    dbType: Composed
+    dbPrefix: none
+    dbFile: none
+    nestedDBs: ["const", "civil"]
+defaultDatabases: ["const", "civil", "kt1"]
